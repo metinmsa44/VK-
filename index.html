@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKI HESAPLAMA</title> 
+     <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+   <!-- Code Start--->
+   
+  
+    <div id="container">
+        <h1>Vücut Kitle İndeksi (VKI) Hesaplayıcı</h1>
+        <label for="weight">Ağırlık (kg): </label>
+        <input type="number" id="weight" name="weight"  required>
+        
+        <label for="height">Boy (cm): </label>
+        <input type="number" id="height" name="height" required>
+        
+        <button type="submit" id="calculateButton">Hesapla</button>
+        <button  type="reset" id="clean">Temizle</button>
+        
+    
+    
+        <section class="result">
+          <h3> Vücut Kitle İndeksiniz </h3>
+          <p id="bmi">0</p>
+          <p id="result">N/A</p>
+      </section>
+
+      <h2>Geçmiş Hesaplamalar</h2>
+      <div class="passresult" id="passresult"></div>
+      <button id="clearHistory" style="background-color:red;">Geçmiş Hesaplamaları Temizle</button>
+   <!-- Code End-->
+        
+        
+
+<script src="app.js"></script>
+</body>
+</html>

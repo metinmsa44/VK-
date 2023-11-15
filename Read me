@@ -1,0 +1,13 @@
+Vücut Kitle İndeksi (VKI) Hesaplayıcı
+Bu basit web uygulaması, kullanıcının ağırlık ve boy bilgilerini girmesine olanak tanıyan ve vücut kitle indeksini hesaplayan bir araçtır.
+
+Kullanım
+Tarayıcınızda index.html dosyasını açın.
+Ağırlık ve boy bilgilerinizi gerekli alanlara girin.
+"Hesapla" düğmesine tıklayarak vücut kitle indeksinizi öğrenin.
+"Temizle" düğmesiyle girdileri sıfırlayabilirsiniz.
+Ek Bilgiler
+Bu uygulama basit bir HTML, CSS ve JavaScript kullanılarak oluşturulmuştur.
+Sonuçlar, "Geçmiş Hesaplamalar" bölümünde görüntülenebilir.
+Ayrıca tarayıcınızın localhost bölümünde kayıt altına almaktadır.
+Geçmiş hesaplamaları temizlemek için "Geçmiş Hesaplamaları Temizle" düğmesini kullanabilirsiniz.
